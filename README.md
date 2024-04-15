@@ -8,16 +8,16 @@ To get started with the Language Translator tool, follow these steps:
 
 1. Clone the repository.
 2. Install the required dependencies.
-    `pip install argostranslate`
-
+    ```shell
+    pip install argostranslate
+    ```
 
 3. Run the `languageTranslator.py` script.
 
 ## Usage
 
 In the `languageTranslator.py` script, you can specify the sentence you want to translate and the target language.
-The script the an open-source translator Argos Translate. Visit their GitHub repository [here](https://github.com/argosopentech/argos-translate/).
-
+The script uses the open-source translator Argos Translate. Visit their GitHub repository [here](https://github.com/argosopentech/argos-translate/).
 
 ## License
 
