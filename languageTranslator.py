@@ -1,4 +1,12 @@
+import urllib.request
 from translate import Translator
+
+
+try:
+    response = urllib.request.urlopen('https://libretranslate.com')
+    print("Connection successful, status:", response.status)
+except urllib.error.URLError as e:
+    print("Error connecting to LibreTranslate:", e.reason)
 
 languages = ['en', 'fr', 'ar']
 
